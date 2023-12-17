@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		13539E9829DB397C00D2A08B /* AnimatedLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13539E9729DB397C00D2A08B /* AnimatedLogoView.swift */; };
-		13539E9A29DB39E700D2A08B /* AnimationCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13539E9929DB39E700D2A08B /* AnimationCompletion.swift */; };
 		1364B33929D9DFE8001BD438 /* AnimatedSplashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1364B33829D9DFE8001BD438 /* AnimatedSplashApp.swift */; };
 		1364B33B29D9DFE8001BD438 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1364B33A29D9DFE8001BD438 /* ContentView.swift */; };
 		1364B33D29D9DFEB001BD438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1364B33C29D9DFEB001BD438 /* Assets.xcassets */; };
@@ -17,7 +16,6 @@
 
 /* Begin PBXFileReference section */
 		13539E9729DB397C00D2A08B /* AnimatedLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLogoView.swift; sourceTree = "<group>"; };
-		13539E9929DB39E700D2A08B /* AnimationCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompletion.swift; sourceTree = "<group>"; };
 		1364B33529D9DFE8001BD438 /* AnimatedSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1364B33829D9DFE8001BD438 /* AnimatedSplashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSplashApp.swift; sourceTree = "<group>"; };
 		1364B33A29D9DFE8001BD438 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 				1364B33C29D9DFEB001BD438 /* Assets.xcassets */,
 				1364B33E29D9DFEB001BD438 /* Preview Content */,
 				13539E9729DB397C00D2A08B /* AnimatedLogoView.swift */,
-				13539E9929DB39E700D2A08B /* AnimationCompletion.swift */,
 			);
 			path = AnimatedSplash;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 			files = (
 				13539E9829DB397C00D2A08B /* AnimatedLogoView.swift in Sources */,
 				1364B33B29D9DFE8001BD438 /* ContentView.swift in Sources */,
-				13539E9A29DB39E700D2A08B /* AnimationCompletion.swift in Sources */,
 				1364B33929D9DFE8001BD438 /* AnimatedSplashApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

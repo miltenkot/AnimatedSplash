@@ -46,15 +46,15 @@ struct AnimatedLogoView<Content: View>: View {
                 }
             }
         }
-        .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                withAnimation(.easeInOut(duration: 1.2)) {
-                    splashState = .end
+        .task {
+            try? await Task.sleep(for: .seconds(1.0))
+            withAnimation(.easeInOut(duration: 1.2)) {
+                splashState = .end
+            } completion: {
+                withAnimation(.linear(duration: 0.5)) {
+                    opacity = .fullyOpaque
                 }
             }
-        }
-        .onAnimationCompleted(for: splashState.rawValue) {
-            opacity = .fullyOpaque
         }
     }
 }
